@@ -1,0 +1,10 @@
+.weather-app {
+  text-align: center;
+  margin: 2.5rem;
+}
+
+@media (min-width: 561px) {
+  .weather-app {
+    text-align: left;
+  }
+}

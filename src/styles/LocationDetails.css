@@ -1,0 +1,24 @@
+.location-details {
+  display: inline-block;
+}
+
+.location-details__heading {
+  position: relative;
+  z-index: 1;
+  font-size: 2.5rem;
+  color: #153253;
+  padding: 0 0.25rem;
+  margin: 0;
+}
+
+.location-details__heading:after {
+  content: '';
+  position: absolute;
+  height: 14px;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #c4d312;
+  z-index: -1;
+}
